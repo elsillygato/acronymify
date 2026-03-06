@@ -4,7 +4,7 @@ function MarkdownArea(props) {
         if (text.length === 0 || wordList.length === 0) {
             return ""
         } else {
-            return wordList.map(word => `**${word[0].toUpperCase()}**${word.slice(1)}`).join(" ")
+            return wordList.map(word => `**${word[0].toUpperCase()}**${word.slice(1)}`).join("")
         }
     }
     return (
